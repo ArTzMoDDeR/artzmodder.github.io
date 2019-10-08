@@ -5,8 +5,14 @@
         <title>Eugène Garcia's website</title>
     </head>
     <body style="background:#111;">
-
-        <div class="title1">Welcome</div>
+        
+<ul class="horizontal">
+  <li><a class="active" href="">Home</a></li>
+  <li><a href="">About</a></li>
+  <li><a href="">Contact</a></li>
+</ul>
+        
+        
 
     </body>
     
@@ -14,6 +20,16 @@
         .title1 {
         font-size:2em;
         text-align:center;
-        }   
+        }  
+        ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+        ul.horizontal li a.active {
+    background-color: #4CAF50;
+}
     </style>
 </html>
